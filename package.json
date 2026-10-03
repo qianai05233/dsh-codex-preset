@@ -1,0 +1,35 @@
+{
+  "name": "dsh-codex-preset",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codex 模式 agent preset for DSH / An OpenAI-Codex-style engineering workflow: explore → plan → implement → verify → integrate, with evidence discipline baked into the persona.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-agent-preset",
+    "codex",
+    "workflow",
+    "persona"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianai05233/dsh-codex-preset.git"
+  },
+  "homepage": "https://github.com/qianai05233/dsh-codex-preset#readme",
+  "bugs": {
+    "url": "https://github.com/qianai05233/dsh-codex-preset/issues"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
